@@ -1,6 +1,6 @@
 ﻿{//以下由F整理 2023/10/25。
 //
- "spider": "./uyv0t678c488189af47bb91dc108484d17431;md5;8f8f0f3cb3d1c025746ffb35b22748a5",
+ "spider": "https://ghproxy.net/https://raw.githubusercontent.com/lxhfans/TV/master/lxhfans.jar",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "lives": [
     {
