@@ -267,7 +267,7 @@
     
    
 #云盘
-{"key":"LR","name":"🌎本地包V1.3🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
+{"key":"LR","name":"🌎在线包V1.3🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
 ],
 
 "parses":[
