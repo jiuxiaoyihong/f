@@ -1,8 +1,5 @@
-﻿{ "urls": [{ "url": "https://jiuxiaoyihong.github.io/f/0o0/TVBox/FF/tv2.txt
+{ "urls": [{ "url": "http://rihou.cc:99/荷城茶秀", "name": "荷城茶秀线路" },
 
-", "name": "自建线路" },
+{ "url": "https://agit.ai/376242575/zzh/raw/branch/master/txt/影视.txt", "name": "人人影视" },
 
-{ "url": "https://jihulab.com/duomv/apps/-/raw/main/fast.json", "name": "应用多多" },
-
-{ "url": "https://la.kstore.space/download/2863/01.txt", "name": "潇洒线路" },
-]}
+{ "url": "https://download.kstore.space/download/2863/01.txt", "name": "潇洒线路" }   ]}
