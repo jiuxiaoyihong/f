@@ -2,8 +2,6 @@
 
 ", "name": "自建线路" },
 
-{ "url": "http://饭太硬.top/tv", "name": "饭太硬" },
-
 { "url": "https://jihulab.com/duomv/apps/-/raw/main/fast.json", "name": "应用多多" },
 
 { "url": "https://la.kstore.space/download/2863/01.txt", "name": "潇洒线路" },
