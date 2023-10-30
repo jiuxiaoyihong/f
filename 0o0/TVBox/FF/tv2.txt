@@ -47,7 +47,7 @@
     },
     {
      "key":"MG",
-     "name":"🥭芒TV(官源)",
+     "name":"🥭芒果TV(官源)",
      "type":3,
      "api":"http://vip.weixine.link:88/js/lib/drpy2.min.js",
      "ext":"http://vip.weixine.link:88/js/mangguo.js"
