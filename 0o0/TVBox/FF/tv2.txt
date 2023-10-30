@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2023/10/28。
+﻿{//以下由F整理 2023/10/30。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 10/28","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 更新于10/30","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
 
 
    
@@ -66,7 +66,16 @@
      "filterable":1
     },
     
-
+{
+      "key": "Qtv",
+      "name": "🐧腾讯┃测试",
+      "type": 3,
+      "api": "csp_Qtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "jar": "https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar",
+      "filterable": 1
+    },
 
 
 {"key": "csp_XYQHiker_在线之家","name":"🦚在线之家","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQHiker/在线之家.json",
@@ -272,6 +281,39 @@
       "api": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
       "searchable": 0
     },
+{
+            "key": "企鹅体育",
+            "name": "🐧腾讯┃体育",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "changeable": 0,
+      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;60a9856a6deb7dcff27f3056626bbb5a",
+    "ext": "https://tvbox.cainisi.cf/json/XPath/企鹅体育.json"
+        },
+
+
+{
+      "key": "csp_虎牙",
+      "name": "🐯┃虎牙直播",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://jihulab.com/duomv/xduo/-/raw/main/spider.txt;md5;FE7A16C03308099ADE4ED6A63B4ADC4C",
+      "ext": "https://agit.ai/leevi/duo/raw/branch/master/libs/虎牙.json"
+    },
+    {
+      "key": "js_斗鱼直播",
+      "name": "🦈┃斗鱼直播",
+      "type": 3,
+      "api": "https://jihulab.com/duomv/xduo/-/raw/main/libs/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://agit.ai/leevi/duo/raw/branch/master/libs/斗鱼.js"
+    },
 
     {
       "key": "49zy",
@@ -360,15 +402,14 @@
     
    
 #云盘
-{"key":"LR","name":"🌎在线V1.4🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
+{"key":"LR","name":"🌎在线V1.4.1🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
 ],
 
 "parses":[
 {"name": "解析聚合","type": 3,"url": "Demo"}, 
 {"name":"Json轮询","type":2,"url":"Sequence"},
         {"name":"乐乐","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
-        {"name":"F专用","type":1,"url":"https://jxjson.cf/json.php?url="},
-        {"name":"毛毛","type":1,"url":"http://jx.daenys.vip:2587/tjxdsg.php?url="},
+        {"name": "777","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
         {"name":"奇奇","type":1,"url":"https://jx.xn--2qux23cmstnvb.com/api/?key=kqbMl0BF9i7sdLCKtr&url="},
         {"name":"毛毛2","type":1,"url":"http://jx.wogg.link:63/jiexi/饭特析.php?url="},
         {"name":"奇奇2","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
@@ -385,7 +426,7 @@
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
         {"name":"量子","type":0,"url":"https://lziplayer.com/?url="},
-        {"name": "V1.4", "type": 1, "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url="},    
+        {"name": "V1.4.1", "type": 1, "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url="},    
         {"name": "F线路测试","type": 0,"url": "https://jx.xmflv.com/?url="}, 
 
 {"name": "最优","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
@@ -402,7 +443,7 @@
 {"name": "小新解析", "type": 1, "url": "http://xiaoxin.1080p.me/api/?key=368b2df76af1b58d897bbe31a00180c0&url="},
 {"name": "看看", "type": 0,"url": "https://www.kankanju.cc/f/jxplayer.php?v=", "flag": ["Feiyun-", "mgtv", "芒果"]}, 
 {"name":"毛三","type":1,"url":"https://vip.mosangkeji.com/api/?key=PLvqEH5S4OsBrVdzv6&url=","header":{"User-Agent":"Dart/2.18 (dart:io)"},"ext":{"flag":["qq","腾讯","youku","hulihuli","hulihuli-","优酷"]}},
-{"name": "777","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+
 {"name":"布雷/芒","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"flag":["qiyi","iqiyi","爱奇艺","奇艺","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","搜狐","xigua","fun","leshi","风行"],"header": {"User-Agent": "okhttp/4.1.0"}}},
 {"name":"芒高/奇异1","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qiyi","iqiyi","爱奇艺","奇艺","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","imgo","芒果","sohu","搜狐","xigua","fun","leshi","风行"],"header": {"User-Agent": "okhttp/4.1.0"}}},
 {"name":"芒高/奇异2","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qiyi","iqiyi","爱奇艺","奇艺","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","imgo","芒果","sohu","搜狐","xigua","fun","leshi","风行"],"header": {"User-Agent": "okhttp/4.1.0"}}},
