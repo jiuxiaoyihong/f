@@ -138,7 +138,42 @@
       "filterable":1,
       "ext": {"danmu": true}
     },
+{
+      "key": "csp_dadagui",
+      "name": "🐢弯弯综艺",
+      "type": 3,
+"jar": "https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar",
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/达达龟.json"
+    },
 
+{
+      "key": "XBPQ_葡萄",
+      "name": "🍇┃抖音短剧",
+      "type": 3,
+"jar": "https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar",
+      "api": "csp_XBPQ",
+      "ext": {
+        "数组": "class=\"stui-vodlist__box&&</li",
+        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
+      }
+    },
+
+    {
+      "key": "csp_XBPQ_haoxi",
+      "name": "🍎┃好戏4K",
+      "type": 3,
+"jar":"https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar",
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/好戏.json"
+    },
 {
       "key": "Mino",
       "name": "👻Mino┃4K",
