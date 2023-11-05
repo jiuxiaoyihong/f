@@ -480,10 +480,9 @@
 "parses":[
 {"name": "解析聚合","type": 3,"url": "Demo"}, 
 {"name":"Json轮询","type":2,"url":"Sequence"},
-        
-   {"name":"YF_1","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},   
-   {"name": "YF_2","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
-        
+   {"name":"YF_1","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+   {"name":"YF_2","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},   
+   {"name":"YF_测试","type": 0,"url": "https://jx.xmflv.com/?url="},     
         {"name":"毛毛2","type":1,"url":"http://jx.wogg.link:63/jiexi/饭特析.php?url="},
         
         {"name":"世世","type":1,"url":"http://175.178.183.192:84/api/?key=f3913eb3f85a8298b3e6e427b8712b2e&url="},
@@ -499,8 +498,8 @@
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
         {"name":"量子","type":0,"url":"https://lziplayer.com/?url="},
-        {"name": "V1.4.1", "type": 1, "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url="},    
-        {"name": "F线路测试","type": 0,"url": "https://jx.xmflv.com/?url="}, 
+        {"name": "V1.4.2", "type": 1, "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url="},    
+        
 
 {"name": "最优","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 {"name":"优爱腾","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"flag":["youku","YouKu","优酷","优酷视频","iqiyi","IQiYi","qiyi","爱奇艺","奇艺","奇艺视频","qq","腾讯","企鹅","腾讯视频","bilibili","哔哩","哔哩哔哩","letv","leshi","LS","乐视视频","pptv","PPTV","sohu","SoHu","搜狐","搜狐视频"]}},
