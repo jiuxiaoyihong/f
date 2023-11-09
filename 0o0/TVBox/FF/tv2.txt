@@ -170,7 +170,7 @@
       "key": "csp_XBPQ_haoxi",
       "name": "🍎┃好戏4K",
       "type": 3,
-"jar":"https://jihulab.com/duomv/xduo/-/raw/main/custom_spider.jar",
+"jar":"./jar/custom_spider.jar",
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
