@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2023/11/5。
+﻿{//以下由F整理 2023/11/9。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -175,7 +175,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://jihulab.com/dimaston1/4k/-/raw/main/json/好戏.json"
+      "ext": "./lib/好戏.json"
     },
 {
       "key": "Mino",
