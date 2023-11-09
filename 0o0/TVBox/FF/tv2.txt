@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于2023/11/9","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于2023/11/9","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
 
 
    
@@ -80,7 +80,7 @@
 
 {"key": "csp_xBPQ_在线之家","name": "️🦚在线之家","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/在线之家xBPQ2.json","jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"},
 {"key": "csp_xBPQ_LIBVIO","name": "️🌵LIBVIO｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/LIBVIOxbpq.json","jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"},
-{"key": "csp_xBPQ_子子影视","name": "️📡子子｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/子子影视xbpq.json","jar":"http://itvbox.cc/sft/jar/xzy1029.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"},
+{"key": "csp_xBPQ_子子影视","name": "️📡子子｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/子子影视xbpq.json","jar":"./jar/xBPQ.jar;md5;5a3a30123ac5eb236aa3e96a7669442f"},
 
 
 
