@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于11/5","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于2023/11/9","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js"},
 
 
    
@@ -141,6 +141,10 @@
       "filterable":1,
       "ext": {"danmu": true}
     },
+{"key": "csp_xBPQ_fgdy","name": "️🐶快看｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/快看影视.json","jar":"./jar/xBPQ.jar"},
+
+{"key": "csp_xBPQ_bilibili","name": "️🐇TVB｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/TVB云播.json","jar":"./jar/xBPQ.jar"},
+
 {
       "key": "csp_dadagui",
       "name": "🐢弯弯综艺",
