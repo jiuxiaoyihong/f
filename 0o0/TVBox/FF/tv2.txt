@@ -142,6 +142,7 @@
       "ext": {"danmu": true}
     },
 {"key": "csp_xBPQ_fgdy","name": "️🐶快看｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/快看影视.json","jar":"./jar/xBPQ.jar"},
+{"key": "drpy_js_奇优影院","name": "️🐥奇优｜2K","type":3,"api": "./lib/drpy2.min.js","ext":"./lib/奇优影院.js"},
 
 {"key": "csp_xBPQ_bilibili","name": "️🐇TVB｜2K","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./lib/TVB云播.json","jar":"./jar/xBPQ.jar"},
 
