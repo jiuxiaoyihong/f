@@ -477,15 +477,14 @@
 "parses":[
 {"name": "解析聚合","type": 3,"url": "Demo"}, 
 {"name":"Json轮询","type":2,"url":"Sequence"},
-
 {"name":"YF_临时线路","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
 {"name": "YF_测试线路","type": 0,"url": "https://jx.xmflv.com/?url="}, 
+{"name":"乐乐","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="}, 
 {"name": "YF_自用2","type": 0,"url": "https://www.pangujiexi.com/pangu/?url="}, 
 {"name": "YF_自用3","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="}, 
 {"name": "YF_自用4","type": 0,"url": "https://www.yemu.xyz/?url="},
-        {"name":"乐乐","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="}, 
-        {"name":"曲奇","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-        {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+{"name":"曲奇","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+{"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         
         
 {"name":"优爱腾","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"flag":["youku","YouKu","优酷","优酷视频","iqiyi","IQiYi","qiyi","爱奇艺","奇艺","奇艺视频","qq","腾讯","企鹅","腾讯视频","bilibili","哔哩","哔哩哔哩","letv","leshi","LS","乐视视频","pptv","PPTV","sohu","SoHu","搜狐","搜狐视频"]}},
