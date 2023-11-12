@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2023/11/10。
+﻿{//以下由F整理 2023/11/12。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -17,20 +17,23 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于2023/11/10","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于2023/11/12","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
 
 
    
   
    {
-     "key":"TX",
-     "name":"🐧腾讯(官源)",
-     "type":3,
-     "api":"http://vip.weixine.link:88/js/lib/drpy2.min.js",
-     "ext":"http://vip.weixine.link:88/js/tengxun.js"
-    },
- 
- 
+"key":"腾讯",
+"name":"🐧腾讯(官源)",
+"type":3,
+"api":"csp_QQ",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"jar":"./jar/Qq.jar"
+},
+
+
     {
      "key":"IQY",
      "name":"🥝爱奇艺(官源)",
@@ -38,24 +41,22 @@
      "api":"http://vip.weixine.link:88/js/lib/drpy2.min.js",
      "ext":"http://vip.weixine.link:88/js/aiqiyi.js"
     },
-    {
-     "key":"YK",
-     "name":"🐴优酷(官源)",
-     "type":3,
-     "api":"http://vip.weixine.link:88/js/lib/drpy2.min.js",
-     "ext":"http://vip.weixine.link:88/js/youku.js"
-    },
-    {
-     "key":"MG",
-     "name":"🥭芒果TV(官源)",
-     "type":3,
-     "api":"http://vip.weixine.link:88/js/lib/drpy2.min.js",
-     "ext":"http://vip.weixine.link:88/js/mangguo.js"
-    },
+{"key":"drpy_js_优酷","name":"🐴优酷(官源)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/优酷.js"},
+{"key":"drpy_js_百忙无果","name":"🥭芒果TV(官源)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/百忙无果.js"},
+    
 {"key":"drpy_js_腾云驾雾","name":"🐧腾讯(备用)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/腾云驾雾.js"},
 {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺(备用)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/奇珍异兽.js"},
-{"key":"drpy_js_优酷","name":"🐴优酷(备用)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/优酷.js"},
-{"key":"drpy_js_百忙无果","name":"🥭芒果TV(备用)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/百忙无果.js"},
+{
+     "key":"py_cctv",
+     "name": "🎈CCTV｜官网",
+     "type": 3,
+    "jar": "./jar/Tong.jar",
+     "api":"py_cctv",
+     "searchable": 0,
+     "quickSearch": 0,
+     "filterable": 0,
+     "ext": "./lib/py_cctv.py"
+    },
 
     {
      "key":"T4_wo",
@@ -69,7 +70,16 @@
 
 {"key":"csp_WoGG","name":"🐿️阿里玩偶｜4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
    
-    
+  {
+      "key": "七七",
+      "name": "🍓酷云七七",
+      "type": 3,
+      "jar": "./jar/Tong.jar",
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },  
 
 
 
@@ -177,28 +187,7 @@
       "filterable": 1,
       "ext": "./lib/好戏.json"
     },
-{
-      "key": "Mino",
-      "name": "👻Mino┃4K",
-      "type": 3,
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;60a9856a6deb7dcff27f3056626bbb5a",
-      "api": "csp_AppMao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir"
-    },
-{
-      "key": "皮皮虾",
-      "name": "🦑皮皮虾┃4K",
-      "type": 3,
-      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;60a9856a6deb7dcff27f3056626bbb5a",
-      "api": "csp_AppSK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZTGJxVRTBDqPTqg1hIUJXNp3iJg1HE6Ku0DDW8bH6VwnMqkHV3FGMiXNUxKFVOX9ue0RveKTtG0CYRkK0lRw=="
-    },
+
     { 
       "key": "csp_XYQHiker_‍dyx", 
       "name": "🧲磁力┃4K", 
@@ -363,7 +352,14 @@
       "filterable": 0,
       "ext": "https://agit.ai/leevi/duo/raw/branch/master/libs/斗鱼.js"
     },
-
+{"key":"drpy_js_哔哩直播","name":"💎 | 哔哩直播","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/哔哩直播.js"},
+{"key":"drpy_js_时光影视","name":"🍄 | 时光影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/时光影视.js"},
+{"key":"drpy_js_六度TV","name":"🍄 | 六度TV","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/六度TV.js"},
+{"key":"drpy_js_8号影院","name":"🍄 | 8号影院","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/8号影院.js"},
+{"key":"drpy_js_大师兄影视","name":"🍄 | 大师兄","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/大师兄影视.js"},
+{"key":"drpy_js_爱看","name":"🍄 | 爱看影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱看.js"},
+{"key":"drpy_js_花猫TV","name":"🍄 | 花猫TV","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/花猫TV.js"},
+{"key":"drpy_js_武享吧","name":"⚔️ | UFC格斗","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/武享吧.js"},
     {
       "key": "49zy",
       "name": "💿四九┃蓝光",
@@ -409,34 +405,7 @@
         "海外剧"
       ]
     },
-    {
-      "key": "cjzy_快看",
-      "name": "💿快看┃蓝光",
-      "type": 1,
-      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/",
-      "playUrl": "",
-      "changeable": 1,
-      "playerType": 2,
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "国产动漫",
-        "日韩剧",
-        "欧美剧",
-        "海外剧",
-        "动作片",
-        "爱情片",
-        "剧情片",
-        "科幻片",
-        "奇幻片",
-        "战争片",
-        "犯罪片",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "冒险片"
-      ]
-    },
+    
     { 
        "key": "csp_AppMr",
        "name": "💿明明┃蓝光",
@@ -450,7 +419,7 @@
 
 {
       "key": "七夜",
-      "name": "🐱阿里┃七夜4K",
+      "name": "🦊☁️┃七夜4K",
       "type": 3,
       "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;c780fa00cbcc2f49f4e446f225a155e7",
       "api": "csp_Dovx",
@@ -462,7 +431,7 @@
     },
     {
       "key": "YiSo",
-      "name": "🦊阿里┃易搜4K",
+      "name": "🦊☁️┃易搜4K",
       "type": 3,
       "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;c780fa00cbcc2f49f4e446f225a155e7",
       "api": "csp_YiSo",
@@ -471,10 +440,38 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
     },
+{
+      "key": "纸条弹幕版",
+      "name": "🦊☁️｜纸条弹幕",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvfan/token.txt",
+        "danmu": true
+      },
+      "jar": "./jar/danmu.jar"
+    },
+    {
+      "key": "七夜弹幕版",
+      "name": "🦊☁️｜七夜弹幕",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvfan/token.txt",
+        "danmu": true
+      },
+      "jar": "./jar/danmu.jar"
+    },
 
    
 #云盘
-{"key":"LR","name":"🌎在线V1.4.5🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
+{"key":"LR","name":"🌎在线V1.5.0🦀","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
 ],
 
 "parses":[
