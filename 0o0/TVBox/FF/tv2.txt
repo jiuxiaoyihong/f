@@ -54,7 +54,7 @@
 {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺(备用)","type":3,"api":"./lib/drpy.min.js","ext":"./lib/奇珍异兽.js"},
 {
      "key":"py_cctv",
-     "name": "🎈CCTV｜官网",
+     "name": "🎈CCTV节目大全",
      "type": 3,
     "jar": "./jar/Tong.jar",
      "api":"py_cctv",
@@ -66,7 +66,7 @@
 
     {
      "key":"T4_wo",
-     "name":"🐿️阿里内置|4K",
+     "name":"🐿️阿里内置4K",
      "type":4,
      "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47",
      "searchable":1,
@@ -74,7 +74,7 @@
      "filterable":1
     },
 
-{"key":"csp_WoGG","name":"🦊️阿里玩偶｜4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
+{"key":"csp_WoGG","name":"🦊️阿里玩偶4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
 
  {
       "key": "csp_XBPQ_haoxi",
