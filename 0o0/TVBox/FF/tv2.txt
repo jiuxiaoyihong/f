@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2023/11/12。
+﻿{//以下由F整理 2023/11/26。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于11/19","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于11/26","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
 
 {
       "key": "应用商店",
@@ -471,6 +471,8 @@
       "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;60a9856a6deb7dcff27f3056626bbb5a",
     "ext": "https://tvbox.cainisi.cf/json/XPath/企鹅体育.json"
         },
+{"key":"drpy_js_武享吧","name":"🥊UFC格斗","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/武享吧.js"},
+
 
 
 {
