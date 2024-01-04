@@ -64,15 +64,6 @@
      "ext": "./lib/py_cctv.py"
     },
 
-    {
-     "key":"T4_wo",
-     "name":"🐿️阿里内置4K",
-     "type":4,
-     "api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47",
-     "searchable":1,
-     "quickSearch":1,
-     "filterable":1
-    },
 
 {"key":"csp_WoGG","name":"🦊️阿里玩偶4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
 
@@ -88,6 +79,15 @@
       "quickSearch": 1,
       "filterable": 1
     },  
+ {"key":"天天",
+"name":"💡天天影视",
+"type":3,
+"jar": "http://w1.nxog.top:80/d/%E7%A7%BB%E7%A7%BB/ou.jar",
+"api":"csp_TTian",
+"playerType":1,
+"ext":"http://op.ysdqjs.cn"},
+
+  {"key":"哔嘀","name":"🍐哔嘀影视","type":3,"api":"csp_Bdys","jar":"http://w1.nxog.top:80/d/%E7%A7%BB%E7%A7%BB/ou.jar","searchable":1,"quickSearch":1,"filterable":1},
 {
             "key": "爱迪",
             "name": "🍟爱迪影视",
