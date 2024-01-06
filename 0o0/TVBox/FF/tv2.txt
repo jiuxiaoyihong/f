@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2024/1/2。
+﻿{//以下由F整理 2024/1/6。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于1/2","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于1/6","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
 
 {
       "key": "应用商店",
@@ -65,7 +65,17 @@
     },
 
 
-{"key":"csp_WoGG","name":"🦊️阿里玩偶4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto$$$http://tvfan.xxooo.cf/","jar":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar"},
+{
+      "key": "csp_WoGG",
+      "name": "🐿️阿里云4K",
+      "type": 3,
+      "jar": "./jar/Tong.jar",
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
 
 
 
