@@ -98,6 +98,18 @@
 "ext":"http://op.ysdqjs.cn"},
 
   {"key":"哔嘀","name":"🍐哔嘀影视","type":3,"api":"csp_Bdys","jar":"http://w1.nxog.top:80/d/%E7%A7%BB%E7%A7%BB/ou.jar","searchable":1,"quickSearch":1,"filterable":1},
+
+{
+     "key":"鸟叔3号",
+     "name":"🎃南瓜影视",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "./jar/Tong.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1
+    },
 {
             "key": "爱迪",
             "name": "🍟爱迪影视",
