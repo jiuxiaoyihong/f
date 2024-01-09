@@ -1,4 +1,4 @@
-﻿{//以下由F整理 2024/1/6。
+﻿{//以下由F整理 2024/1/9。
 //
  "spider": "",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -17,7 +17,7 @@
      ],
 
   "sites":[
-{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于1/6","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
+{"key":"drpy_js_豆瓣","name":"🏠 | 线路维护于1/9","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/drpy.js"},
 
 {
       "key": "应用商店",
@@ -76,6 +76,17 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
+{
+      "key": "玩偶哥哥",
+      "name": "👽玩偶4K弹幕",
+      "type": 3,
+      "jar": "./jar/fty.jar",
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
 
 
 
@@ -110,6 +121,33 @@
       "playerType": 2,
       "filterable": 1
     },
+
+{
+      "key": "csp_kuaikan",
+      "name": "🚀快看影视",
+      "type": 3,
+      "jar": "./jar/xiaosa.jar",
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+ {
+      "key": "csp_Btwtoo",
+      "name": "🐰鼻涕虫",
+      "type": 3,
+      "jar": "./jar/xiaosa.jar",
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+{"key":"csp_qiao2_巧技二","name":" 🦜巧技二","type":3,"api":"csp_qiao2","jar": "./jar/fix12210.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
+
+{"key":"樱花","name":"🌸樱花动漫","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3","jar":"./jar/6.txt"},
+
+{"key":"csp_Dm84","name":"🚘动漫巴士","type":3,"api":"csp_Dm84","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431"},
 {
             "key": "爱迪",
             "name": "🍟爱迪影视",
